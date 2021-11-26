@@ -1,0 +1,2 @@
+# fooschemachecker
+Validates YAML docs
