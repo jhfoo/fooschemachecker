@@ -1,0 +1,17 @@
+defaults:
+  cpu:
+    SchemaType: int
+  mem:
+    SchemaType: string
+    SchemaRegex: \d+\D+
+  SchemaIsArray: false
+sites:
+  name: 
+    SchemaRegex: \D+\.*
+    SchemaMandatory: true
+  env:
+    SchemaType: KeyValuePairs
+    SchemaMandatory: false
+  id:
+    SchemaType: string
+  SchemaIsArray: true

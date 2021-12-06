@@ -1,0 +1,13 @@
+defaults:
+  cpu: 1
+  mem: 256kb
+sites:
+  - name: site 1
+    id: site1
+    env:
+      NODE_ENVIRONMENT: production
+      DB_TOKEN: abcdef
+  - id: site2
+    name: site 2    
+    env:
+      NODE_ENVIRONMENT: staging
